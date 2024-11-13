@@ -1,0 +1,13 @@
+
+.typewriterText {
+    margin-top: 40px; /* Adjust as needed */
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+}
+
+
+.container h2{
+    margin-bottom: 5%;
+}

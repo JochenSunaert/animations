@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "aos": "^2.3.4",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
+    "next": "15.0.2",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "scrollmagic": "^2.0.8",
+    "scrollreveal": "^4.0.9",
+    "three": "^0.170.0"
+  }
+}

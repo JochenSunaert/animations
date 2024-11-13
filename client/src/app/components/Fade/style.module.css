@@ -1,0 +1,40 @@
+/* styles.module.css */
+
+
+/* Text section to fade in and out */
+.textSection {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    height: 100vh; /* Full height to ensure the text section takes up the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Optional text color */
+}
+
+.textSection h2 {
+    color: red;
+}
+
+
+/* Optional styles for additional visual effects */
+.textSection .test {
+    font-size: 60px;
+}
+
+/* styles.module.css */
+
+/* styles.module.css */
+
+.textsection {
+    opacity: 0; /* Start hidden */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Optional text color */
+}
+
+.test {
+    font-size: 30px; /* Optional styling for inner text */
+}
+
