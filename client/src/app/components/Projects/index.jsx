@@ -6,20 +6,20 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "Gomu Gomu no Gigant",
+        src: "giant.jpg"
     },
     {
-        title: "Valle de la luna",
-        src: "valle_de_la_muerte.jpeg"
+        title: "Gomu Gomu no Jump Rope",
+        src: "jumprope.png"
     },
     {
-        title: "Miscanti Lake",
-        src: "miscani_lake.jpeg"
+        title: "Gomu Gomu no Dawn Rocket",
+        src: "rocket.jpg"
     },
     {
-        title: "Miniques Lagoons",
-        src: "miniques_lagoon.jpg"
+        title: "Gomu Gomu no Lightning",
+        src: "lighting.png"
     },
 ]
 
@@ -35,7 +35,7 @@ export default function Index() {
             trigger: imageContainer.current,
             pin: true,
             start: "top-=100px",
-            end: document.body.offsetHeight - window.innerHeight - 50,
+            end: document.body.offsetHeight - window.innerHeight + 200,
         })
     }, [])
 
@@ -51,10 +51,10 @@ export default function Index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>Met Gear 5 bereikte Luffy een nieuw niveau van kracht, waarbij hij zijn lichaam en de wereld om zich heen kon vervormen alsof het pure rubber was. Deze vorm gaf hem een speelse, bijna cartooneske vrijheid, die al zijn vijanden verraste</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>Na de transformatie veranderde het gevecht volledig – Luffy lachte vol zelfvertrouwen terwijl hij Kaido’s aanvallen moeiteloos ontweek en zijn eigen verrassende krachten liet zien. De strijd werd een spektakel, waarbij niemand kon voorspellen wat Luffy als volgende zou doen.</p>
                 </div>
             </div>
 

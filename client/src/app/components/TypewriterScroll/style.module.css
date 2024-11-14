@@ -1,12 +1,16 @@
 
 .typewriterText {
-    margin-top: 40px; /* Adjust as needed */
-    font-family: monospace;
-    white-space: nowrap;
+    margin-top: 15vw; /* Adjust as needed */
+
+
     overflow: hidden;
+    text-align: center;
     color: white;
 }
 
+.typewriterText{
+    font-size: 3vw;
+}
 
 .container h2{
     margin-bottom: 5%;

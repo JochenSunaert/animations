@@ -3,7 +3,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 import styles from './style.module.css';
 
-const phrases = ["Los Flamencos National Reserve", "is a nature reserve located", "in the commune of San Pedro de Atacama", "The reserve covers a total area", "of 740 square kilometres (290 sq mi)"]
+const phrases = ["Hoe Luffy’s Gear 5 Transformatie", "het Internet in Vuur en Vlam Zet:", "Een Nieuwe Mijlpaal", "in de Wereld van One Piece"]
 
 export default function Index() {
 

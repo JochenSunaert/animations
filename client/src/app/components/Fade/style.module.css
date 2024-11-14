@@ -30,11 +30,19 @@
     opacity: 0; /* Start hidden */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    margin-top: 10vw;
     color: white; /* Optional text color */
+    width: 70%;
+    font-size: 20px;
 }
 
-.test {
-    font-size: 30px; /* Optional styling for inner text */
+
+.textsection p:nth-child(3){
+    margin-top: 5vw;
+}
+
+.textsection h2{
+    font-size: 3vw !important; 
 }
 

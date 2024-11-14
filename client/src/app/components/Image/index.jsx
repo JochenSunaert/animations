@@ -9,8 +9,8 @@ export default function HoverDistortionImage() {
     const [currentImage, setCurrentImage] = useState(0);
 
     const projects = [
-        { src: "/images/salar_de_atacama.jpg", title: "Salar de Atacama" },
-        { src: "/images/valle_de_la_muerte.jpeg", title: "Valle de la Muerte" },
+        { src: "/images/kaido.jpg", title: "Salar de Atacama" },
+        { src: "/images/kaido2.jpg", title: "Valle de la Muerte" },
     ];
 
     const handleMouseEnter = () => {
@@ -65,7 +65,9 @@ export default function HoverDistortionImage() {
                     objectFit="cover"
                     priority={true}
                 />
+                
             </div>
+            <p>hover me</p>
         </div>
     );
 }

@@ -6,8 +6,12 @@ import styles from './style.module.css';
 export default function TypewriterScroll() {
     return (
         <div className={styles.container}>
-            <TypewriterText tag="h2">This is typewriting</TypewriterText>
-            <TypewriterText tag="p">This is typewriting</TypewriterText>
+            <TypewriterText tag="h2">Kaido had Luffy verslagen...</TypewriterText>
+            <TypewriterText tag="p">Zijn lichaam was stil en levenloos.</TypewriterText>
+            <TypewriterText tag="p">Iedereen dacht dat het voorbij was.</TypewriterText>
+            <TypewriterText tag="p">Totdat er iets veranderde.</TypewriterText>
+            <TypewriterText tag="p">Een sprankje energie... een glimlach.</TypewriterText>
+            <TypewriterText tag="p">Luffy stond weer op...</TypewriterText>
         </div>
     );
 }
